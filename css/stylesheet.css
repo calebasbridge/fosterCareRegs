@@ -1,9 +1,19 @@
 body {
   font-family:default;
 }
+p {
+  font-size: 16px;
+}
+header {
+  font-size: 18px;
+  font-weight: bold;
+}
 .tab1 {
   margin-left: 25px;
 }
 .tab2 {
   margin-left: 50px;
+}
+#section23 {
+  line-height: .5;
 }

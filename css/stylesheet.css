@@ -1,5 +1,5 @@
 body {
-  font-family:default;
+  font-family:Georgia;
 }
 p {
   font-size: 16px;
@@ -14,6 +14,22 @@ header {
 .tab2 {
   margin-left: 50px;
 }
+.relatesTo {
+  margin-left: 25px;
+  font-family: Arial;
+}
+.statutoryAuthority {
+  margin-left: 25px;
+  font-family: Arial;
+}
+.necessityFunctionConformity {
+  margin-left: 25px;
+  font-family: Arial;
+}
 #section23 {
   line-height: .5;
+  font-family: Arial;
 }
+/*#header241 {
+  font-family: Arial;
+}*/

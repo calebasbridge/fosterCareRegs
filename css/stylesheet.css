@@ -39,3 +39,6 @@ header {
   line-height: 1.2;
   font-family: Arial;
 }
+span {
+  color: purple;
+}

@@ -41,4 +41,7 @@ span {
 #section23, #section33 {
   line-height: 1.2;
   font-family: Arial;
+  width: 900px;
+	border: 1px solid #000;
+	margin-bottom: 20px;
 }

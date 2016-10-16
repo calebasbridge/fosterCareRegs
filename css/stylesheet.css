@@ -1,11 +1,11 @@
 body {
-  font-family:Georgia;
+  font-family:Georgia, Arial, sans-serif;;
 }
 p {
-  font-size: 16px;
+  font-size: 1em;
 }
 header {
-  font-size: 18px;
+  font-size: 1.25em;
   font-weight: bold;
 }
 span {
@@ -29,14 +29,17 @@ span {
 .relatesTo {
   margin-left: 25px;
   font-family: Arial;
+  font-size: 1em;
 }
 .statutoryAuthority {
   margin-left: 25px;
   font-family: Arial;
+  font-size: 1em;
 }
 .necessityFunctionConformity {
   margin-left: 25px;
   font-family: Arial;
+  font-size: 1em;
 }
 #section23, #section33 {
   line-height: 1.2;

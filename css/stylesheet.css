@@ -14,8 +14,15 @@ p {
   font-size: 1em;
 }
 header {
+  font-family: sans-serif;
   font-size: 1.25em;
   font-weight: bold;
+}
+h1 {
+  font-family: sans-serif;
+}
+h2 {
+  font-family: sans-serif;
 }
 span {
   color: purple;

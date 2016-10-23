@@ -36,6 +36,36 @@ h2 {
 span {
   color: purple;
 }
+/* I created this div to style the internal section links for reg pages. Decided not to use it.
+div {
+  border: 2px solid #000000;
+  width: 300px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}*/
+table, th {
+  border: 1px solid #000000;
+}
+td {
+  border: 1px double #000000;
+  padding: 5px;
+  background: #5D5BFF;
+  text-align: center;
+  margin: 5px;
+  width: 285px;
+}
+td a:link, td a:visited {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #FFE466;
+}
+td a:hover {
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: #3835FF;
+  font-weight: bold;
+}
 .tab1 {
   margin-left: 25px;
 }
@@ -94,6 +124,7 @@ span {
   width: 300px;
   float: right;
   }
+
 #header2231, #header2232, #header2233, #header3331, #header3332, #header3333 {
   color: white;
   text-indent: 5px;

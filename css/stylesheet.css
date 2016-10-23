@@ -1,5 +1,14 @@
+/*
+Color Palette:
+ROYAL BLUE  1514B2
+LAVENDER    5D5BFF
+NAVY BLUE   3835FF
+BROWN       B29302
+TAN         FFE466*/
+
 body {
   font-family:Georgia, Arial, sans-serif;
+  background-color: #5D5BFF;
 }
 p {
   font-size: 1em;
@@ -41,8 +50,29 @@ span {
   font-family: Arial;
   font-size: 1em;
 }
-.grey {
-  background-color: grey;
+.royalbluebackground {
+  background-color: #1514B2;
+}
+.lavenderbackground {
+  background-color: #5D5BFF;
+}
+.navybluebackground {
+  background-color: #3835FF;
+}
+.brownbackground {
+  background-color: #B29302;
+}
+.tanbackground {
+  background-color: #FFE466;
+}
+.commonwealthseal {
+  height: 300px;
+  width: 300px;
+  float: right;
+  }
+#header2231, #header2232, #header2233, #header3331, #header3332, #header3333 {
+  color: white;
+  text-indent: 5px;
 }
 #section23, #section33 {
   display:block;

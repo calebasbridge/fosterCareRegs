@@ -8,7 +8,7 @@ TAN         FFE466*/
 
 a:link, a:visited {
   text-decoration: underline;
-  color: #1514B2;
+  color: #FFE466;
 }
 a:hover {
 	color: #FFE466;
@@ -34,7 +34,8 @@ h2 {
   font-family: sans-serif;
 }
 span {
-  color: purple;
+  font-family: inherit;
+  font-weight: inherit;
 }
 /* I created this div to style the internal section links for reg pages. Decided not to use it.
 div {
@@ -85,16 +86,19 @@ td a:hover {
   margin-left: 25px;
   font-family: Arial;
   font-size: 1em;
+  font-weight: 500;
 }
 .statutoryAuthority {
   margin-left: 25px;
   font-family: Arial;
   font-size: 1em;
+  font-weight: 500;
 }
 .necessityFunctionConformity {
   margin-left: 25px;
   font-family: Arial;
   font-size: 1em;
+  font-weight: 500;
 }
 .royalbluebackground {
   background-color: #1514B2;

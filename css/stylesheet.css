@@ -126,8 +126,10 @@ td a:hover {
   }
 
 #header2231, #header2232, #header2233, #header3331, #header3332, #header3333 {
-  color: white;
+  color: #FFE466;
   text-indent: 5px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 #section23, #section33 {
   display:block;
@@ -135,5 +137,6 @@ td a:hover {
   font-family: Arial;
   width: 75%;
 	border: 1px solid #000;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

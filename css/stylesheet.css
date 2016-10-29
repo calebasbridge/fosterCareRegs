@@ -43,14 +43,7 @@ span {
   font-family: inherit;
   font-weight: inherit;
 }
-/* I created this div to style the internal section links for reg pages. Decided not to use it.
-div {
-  border: 2px solid #000000;
-  width: 300px;
-  text-align: center;
-  margin: 5px;
-  padding: 5px;
-}*/
+
 table, th {
   border: 1px solid #000000;
 }
@@ -133,6 +126,32 @@ td a:hover {
   height: 300px;
   width: 300px;
   float: right;
+  }
+  .linkbutton {
+    background-color:#838B8B;
+    height: 100px;
+    width: 250px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    vertical-align: top;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: .9em;
+    text-align: center;
+  }
+
+  .linkbutton a:link,a:visited {
+    color: #000000;
+  }
+
+  .linkbutton a:hover {
+    font-weight: bold;
+    color: FFE466;
+  }
+
+  #section13, #section14 {
+    margin-left: 25px;
   }
 
 #header2231, #header2232, #header2233, #header3331, #header3332, #header3333 {

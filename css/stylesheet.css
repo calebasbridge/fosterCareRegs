@@ -66,6 +66,41 @@ td a:hover {
   color: #3835FF;
   font-weight: bold;
 }
+
+.backgrounddiv {
+    background: #5D5BFF no-repeat center center;
+    position: relative;
+    opacity: .5;
+    height: 200px;
+    width: auto;
+    float:auto;
+    margin-top: -50px;
+}
+
+.layerdiv {
+  background: url('../images/KYStateCapitol.jpg') no-repeat center center;
+  background-size:cover;
+  position:relative;
+  opacity: .5;
+  height: 350px;
+  width: auto;
+  float: auto;
+  margin-top: -310px;
+}
+
+.topparagraph {
+  color: #fff;
+  position: relative;
+  z-index: 100;
+}
+.commonwealthseal {
+  height: 300px;
+  width: 300px;
+  float: right;
+  position: relative;
+  z-index: 100;
+  }
+
 .tab1 {
   margin-left: 25px;
 }
@@ -105,14 +140,6 @@ td a:hover {
 .lavenderbackground {
   background-color: #5D5BFF;
 }
-.lavenderbackground2 {
-  background-color: #5D5BFF;
-  padding-bottom: 30px;
-}
-.lavenderbackground3 {
-  background-color: #5D5BFF;
-  padding-top: 30px;
-}
 .navybluebackground {
   background-color: #3835FF;
 }
@@ -122,16 +149,12 @@ td a:hover {
 .tanbackground {
   background-color: #FFE466;
 }
-.commonwealthseal {
-  height: 300px;
-  width: 300px;
-  float: right;
-  }
-  .linkbutton {
+
+.linkbutton {
     background-color:#838B8B;
     height: 100px;
     width: 250px;
-    border: 2px solid #000000;
+    border: 2px outset #000000;
     border-radius: 5px;
     margin: 5px 5px 5px 5px;
     vertical-align: top;
@@ -150,9 +173,18 @@ td a:hover {
     color: FFE466;
   }
 
-  #section13, #section14 {
+#div1134 {
+  font-size: .8em;
+}
+
+#div1135, #div1136, #div1137, #div1138 {
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
+#section13, #section14 {
     margin-left: 25px;
-  }
+}
 
 #header2231, #header2232, #header2233, #header3331, #header3332, #header3333 {
   color: #FFE466;
